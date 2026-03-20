@@ -23,8 +23,9 @@ pip install -r requirements.txt
 4. Запуск автотестов
 $ pytest -v
 $ pytest --alluredir=allure_results
+Для запуска тестов в изолированном контейнере используйте команду: docker-compose up --build»
 
-5. Отчет о тестировании
+6. Отчет о тестировании
 Генерация отчета в формате HTML с помощью Allure:
 
 allure serve reports/allure-reports
